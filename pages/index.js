@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function UsernameForm() {
-  const [username, setUsername] = useState(null);
+  const [username, setUsername] = useState('');
   const [availability, setAvailability] = useState(null);
 
   const handleSubmit = async (event) => {
@@ -40,7 +40,7 @@ export default function UsernameForm() {
           />
           <button className = "text-base" type="submit">Search</button>         
         </form>
-        <a className = "flex ml-auto mr-0 text-center items-center justify-center" href = "">GitHub</a> 
+        <a className = "flex ml-auto mr-0 text-center items-center justify-center sm:hidden" href = "https://github.com/lorenz-f/username-checker">GitHub</a> 
       </header>
        <div className="h-full flex flex-col w-full text-2xl">
         <div
