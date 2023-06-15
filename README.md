@@ -1,3 +1,8 @@
+## Getting Started
+
+Web app that accepts a username as input, checking availability for that username against Instagram, Twitter, TikTok, and Reddit in a single call. Built primarily for those that
+              want to quickly search for high-traffic as well as available business names.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
